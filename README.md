@@ -29,7 +29,7 @@ FossFLOW is a powerful, open-source Progressive Web App (PWA) for creating beaut
 
 ![Screenshot_20250630_160954](https://github.com/user-attachments/assets/e7f254ad-625f-4b8a-8efc-5293b5be9d55)
 
-- **📝 [FOSSFLOW_TODO.md](https://github.com/stan-smith/FossFLOW/blob/master/ISOFLOW_TODO.md)** - Current issues and roadmap with codebase mappings, most gripes are with the isoflow library itself.
+- **📝 [FOSSFLOW_TODO.md](https://github.com/stan-smith/FossFLOW/blob/master/FOSSFLOW_TODO.md)** - Current issues and roadmap with codebase mappings, most gripes are with the isoflow library itself.
 - **🤝 [CONTRIBUTORS.md](https://github.com/stan-smith/FossFLOW/blob/master/CONTRIBUTORS.md)** - How to contribute to the project.
 
 ## Recent Updates (August 2025)
@@ -146,8 +146,12 @@ npm run build:lib    # Build library only
 npm run build:app    # Build app only
 
 # Testing & Linting
-npm test             # Run tests
+npm test             # Run unit tests
 npm run lint         # Check for linting errors
+
+# E2E Tests (Selenium)
+cd e2e-tests
+./run-tests.sh       # Run end-to-end tests (requires Docker & Python)
 
 # Publishing
 npm run publish:lib  # Publish library to npm
@@ -185,8 +189,8 @@ We welcome contributions! Please see [CONTRIBUTORS.md](CONTRIBUTORS.md) for guid
 
 ## Documentation
 
-- [ISOFLOW_ENCYCLOPEDIA.md](ISOFLOW_ENCYCLOPEDIA.md) - Comprehensive guide to the codebase
-- [ISOFLOW_TODO.md](ISOFLOW_TODO.md) - Current issues and roadmap
+- [FOSSFLOW_ENCYCLOPEDIA.md](FOSSFLOW_ENCYCLOPEDIA.md) - Comprehensive guide to the codebase
+- [FOSSFLOW_TODO.md](FOSSFLOW_TODO.md) - Current issues and roadmap
 - [CONTRIBUTORS.md](CONTRIBUTORS.md) - Contributing guidelines
 
 ## License
